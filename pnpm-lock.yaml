@@ -1,0 +1,34 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@gluon-framework/gluon':
+    specifier: ^0.14.0
+    version: 0.14.0
+
+packages:
+
+  /@gluon-framework/gluon@0.14.0:
+    resolution: {integrity: sha512-tQFy1Esuy5U6A7pmlMtgY6qu7juQm4ETMDvKAMbS4gETKoY6NsoUKlmEmKrCN1SJR5CBzPbsTQw0LjgFA9BXVQ==}
+    dependencies:
+      ws: 8.16.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
+  /ws@8.16.0:
+    resolution: {integrity: sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: false
