@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import * as Gluon from '@gluon-framework/gluon'
 
 // async function main() {
